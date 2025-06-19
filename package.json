@@ -1,0 +1,21 @@
+{
+  "name": "takeoff-media-landing",
+  "version": "1.0.0",
+  "description": "TakeOff Media - Automated SEO for Solo Entrepreneurs",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 3000",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": [
+    "seo",
+    "automation",
+    "ai",
+    "content",
+    "marketing",
+    "solopreneur"
+  ],
+  "author": "TakeOff Media",
+  "license": "ISC",
+  "homepage": "https://takeoff-media.vercel.app"
+}
