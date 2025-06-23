@@ -2,6 +2,10 @@
 function typeWriter(element, text, speed = 150) {
     return new Promise((resolve) => {
         let i = 0;
+        const cursor = document.getElementById('cursor');
+        
+        // Show cursor only during typing
+        cursor.style.display = 'inline-block';
         element.classList.add('typing');
         
         function type() {
@@ -11,6 +15,7 @@ function typeWriter(element, text, speed = 150) {
                 setTimeout(type, speed + Math.random() * 50); // Add slight randomness for realism
             } else {
                 element.classList.remove('typing');
+                cursor.style.display = 'none'; // Hide cursor when done
                 resolve();
             }
         }
