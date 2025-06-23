@@ -1,5 +1,5 @@
 {
   "trailingSlash": false,
   "buildCommand": "",
-  "outputDirectory": "."
+  "outputDirectory": "website"
 }
